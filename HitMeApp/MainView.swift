@@ -31,13 +31,11 @@ struct MainView: View {
                 DispatchQueue.main.asyncAfter(deadline: .now() + duration) {
                     withAnimation {
                         flagIndex = viewModel.nextFlag(flagIndex: flagIndex)
-                        flag.scrollTo(flagIndex,
-                                      anchor: .center)
                         if flagIndex == viewModel.flags.endIndex {
                             flagIndex = viewModel.flags.startIndex
-                            flag.scrollTo(flagIndex,
-                                          anchor: .center)
                         }
+                        flag.scrollTo(flagIndex,
+                                      anchor: .center)
                     }
                 }
             }
