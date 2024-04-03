@@ -15,6 +15,7 @@
 		9D7F9C722BBDB709005A465E /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F9C712BBDB709005A465E /* CustomButtonStyle.swift */; };
 		9D7F9C752BBDB767005A465E /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F9C742BBDB767005A465E /* ButtonExtension.swift */; };
 		9D7F9C772BBDB872005A465E /* UISize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F9C762BBDB872005A465E /* UISize.swift */; };
+		9D7F9C802BBDDA27005A465E /* MainViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F9C7F2BBDDA27005A465E /* MainViewModelProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		9D7F9C712BBDB709005A465E /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
 		9D7F9C742BBDB767005A465E /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
 		9D7F9C762BBDB872005A465E /* UISize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISize.swift; sourceTree = "<group>"; };
+		9D7F9C7F2BBDDA27005A465E /* MainViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +63,7 @@
 			children = (
 				9D7F9C592BBD8BC3005A465E /* HitMeApp.swift */,
 				9D7F9C5B2BBD8BC3005A465E /* MainView.swift */,
-				9D7F9C6E2BBDB2A4005A465E /* MainViewModel.swift */,
+				9D7F9C7E2BBDD9F7005A465E /* AllAboutModel */,
 				9D7F9C702BBDB6EA005A465E /* Supports */,
 				9D7F9C5D2BBD8BC7005A465E /* Assets.xcassets */,
 				9D7F9C5F2BBD8BC7005A465E /* Preview Content */,
@@ -93,6 +95,15 @@
 				9D7F9C742BBDB767005A465E /* ButtonExtension.swift */,
 			);
 			path = Button;
+			sourceTree = "<group>";
+		};
+		9D7F9C7E2BBDD9F7005A465E /* AllAboutModel */ = {
+			isa = PBXGroup;
+			children = (
+				9D7F9C6E2BBDB2A4005A465E /* MainViewModel.swift */,
+				9D7F9C7F2BBDDA27005A465E /* MainViewModelProtocol.swift */,
+			);
+			path = AllAboutModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +181,7 @@
 				9D7F9C772BBDB872005A465E /* UISize.swift in Sources */,
 				9D7F9C752BBDB767005A465E /* ButtonExtension.swift in Sources */,
 				9D7F9C5A2BBD8BC3005A465E /* HitMeApp.swift in Sources */,
+				9D7F9C802BBDDA27005A465E /* MainViewModelProtocol.swift in Sources */,
 				9D7F9C6F2BBDB2A4005A465E /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
